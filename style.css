@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
+body{
+    scroll-behavior: smooth;
+}
 .banner{
     background-image: url("https://www.wallpaperflare.com/static/800/486/460/headphones-yellow-background-music-black-wallpaper-preview.jpg");
     height: 100vh;
@@ -23,11 +26,17 @@
     font-weight: 800;
     font-size: 40px;
 }
-.drop{
-    background-color: orangered;
-    margin: 0;
+.sec-1{
+    background-color: #FEC260;
     width: 100%;
-    height: 200px;
+    height: 160px;
+}
+.sec-1 h1{
+    padding-top: 60px;
+}
+.cr-body{
+    width: 100%;
+    background-color: #FEC260;
 }
 @media screen and (max-width: 768px) {
     .content {
