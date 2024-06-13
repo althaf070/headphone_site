@@ -7,6 +7,9 @@
 body{
     scroll-behavior: smooth;
 }
+nav {
+    z-index: 1;
+}
 .banner{
     background-image: url("https://www.wallpaperflare.com/static/800/486/460/headphones-yellow-background-music-black-wallpaper-preview.jpg");
     height: 100vh;
@@ -61,5 +64,8 @@ body{
     .content h1{
         font-weight: 700;
         font-size: 34px;
+    }
+    .col-md-3{
+      margin-left: 120px;
     }
 }
