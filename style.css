@@ -6,10 +6,9 @@
 }
 body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
-nav {
-    z-index: 1;
-}
+
 .banner{
     background-image: url("https://www.wallpaperflare.com/static/800/486/460/headphones-yellow-background-music-black-wallpaper-preview.jpg");
     height: 100vh;
@@ -53,6 +52,7 @@ nav {
     top: 60px;
 }
 @media screen and (max-width: 768px) {
+   
     .content {
         padding-left: 20px;
         padding-top: 12px;
@@ -67,5 +67,7 @@ nav {
     }
     .col-md-3{
       margin-left: 120px;
+      
     }
+  
 }
